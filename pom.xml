@@ -89,9 +89,8 @@
     		<artifactId>jquery-mask-plugin</artifactId>
     		<version>1.14.15</version>
 		</dependency>
-		
+
 		<!-- THYMELEAF -->
-		
 		<dependency>
 			<groupId>nz.net.ultraq.thymeleaf</groupId>
 			<artifactId>thymeleaf-layout-dialect</artifactId>
