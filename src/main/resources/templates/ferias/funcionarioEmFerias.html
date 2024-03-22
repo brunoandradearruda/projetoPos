@@ -14,6 +14,7 @@
             <table class="table">
                 <thead>
                 <tr>
+                    <th>Matrícula</th>
                     <th>Nome</th>
                     <th>Data de Início</th>
                     <th>Data de Fim</th>
@@ -21,6 +22,7 @@
                 </thead>
                 <tbody>
                 <tr th:each="ferias : ${funcionariosEmFerias}">
+                    <td th:text="${ferias.funcionario.matricula}"></td>
                     <td th:text="${ferias.funcionario.nome}"></td>
                     <td th:text="${ferias.inicioFerias}"></td>
                     <td th:text="${ferias.fimFerias}"></td>
