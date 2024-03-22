@@ -1,0 +1,11 @@
+
+k
+java:S11922"UDefine a constant instead of duplicating this literal "funcionario/cadastro" 4 times.(˜æ®È
+c
+java:S11927"MDefine a constant instead of duplicating this literal "funcionarios" 4 times.(Õî”À
+m
+java:S11928"RDefine a constant instead of duplicating this literal "funcionario/lista" 4 times.(êÌºøÿÿÿÿ
+X
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞ

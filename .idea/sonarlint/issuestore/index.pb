@@ -30,3 +30,13 @@ j
 :src/main/java/com/projetouposunipe/AuthApiApplication.java,4\d\4d9ff74725df07b4d289e79c40531d29c3216088
 u
 Esrc/main/java/com/projetouposunipe/web/controller/HomeController.java,5\e\5ec034068ead1e44de59600fcfe75c236ad62825
+v
+Fsrc/main/java/com/projetouposunipe/web/controller/CargoController.java,d\4\d46dd7f2f6f9d8889ceafac7e86015d5986a1f85
+}
+Msrc/main/java/com/projetouposunipe/web/controller/DepartamentoController.java,e\1\e170788ce224bfe9300a053d93bb0b8c5b05cfb4
+|
+Lsrc/main/java/com/projetouposunipe/web/controller/FuncionarioController.java,1\1\11f253b1873d381442c1658938c7be32d3cab9f4
+x
+Hsrc/main/java/com/projetouposunipe/web/controller/UsuarioController.java,b\e\be5b784c4e58f88c408c8791c9f6e92327249f5a
+v
+Fsrc/main/java/com/projetouposunipe/web/controller/LoginController.java,e\9\e9288141cc08dbf0357aa364cc8410e5076a1f93
