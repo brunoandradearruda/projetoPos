@@ -1,11 +1,11 @@
 
 ‘
-java:S11922"UDefine a constant instead of duplicating this literal "funcionario/cadastro" 4 times.(˜æ®ÈJ$878c135e-c7c8-4fd3-9ba4-edb0e8f36b98
+java:S11922"UDefine a constant instead of duplicating this literal "funcionario/cadastro" 4 times.(˜æ®ÈJ$863632f3-2f52-4218-a336-af44920ea8db
 ‰
-java:S11927"MDefine a constant instead of duplicating this literal "funcionarios" 4 times.(Õî”ÀJ$eef92884-84c2-4bdf-aae6-1a8dae7a2080
+java:S11927"MDefine a constant instead of duplicating this literal "funcionarios" 4 times.(Õî”ÀJ$fea26a24-b8d2-47f3-8959-f43a68ac914f
 “
-java:S11928"RDefine a constant instead of duplicating this literal "funcionario/lista" 4 times.(êÌºøÿÿÿÿJ$426d1f1c-33c2-4f9f-a869-0e3fff227562
+java:S11928"RDefine a constant instead of duplicating this literal "funcionario/lista" 4 times.(êÌºøÿÿÿÿJ$b0d46d97-8794-4074-887f-23a9c6af1ef1
 ~
-java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞJ$1e649ee4-6c0d-4dd4-b4a0-a5b645453559
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞJ$037e1482-6da4-470f-87e9-e8155f4e1954
 ~
-java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞJ$54fa11ce-305d-4c58-b3d4-a445cee9d3a2
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞJ$02c7ba99-c3a3-4535-bb38-ea0122b37390
