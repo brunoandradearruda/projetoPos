@@ -41,7 +41,7 @@ public class FeriasController {
         LocalDate inicioFerias = LocalDate.parse(dataInicio);
         feriasService.registrarFerias(funcionarioId, inicioFerias, 30); // Considerando 30 dias de férias por padrão
 
-        return "redirect:/ferias/listagem"; // Redireciona para a listagem de funcionários em férias
+        return "redirect:/ferias/listar"; // Redireciona para a listagem de funcionários em férias
     }
 
     // Método para listar funcionários em férias

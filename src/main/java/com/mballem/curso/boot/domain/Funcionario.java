@@ -24,16 +24,23 @@ import org.springframework.format.annotation.NumberFormat.Style;
 public class Funcionario extends AbstractEntity<Long> {
 	
 	/*########################################################################################################*/
-	
+
+
+//	@NotBlank
+//	@Size(max = 9)
+//	@Column(nullable = false, unique = true)
+//	private String matricula;
+
+
 	@NotBlank
 	@Size(max = 255, min = 3)
 	@Column(nullable = false, unique = true)		
 	private String nome;
 
 	@NotNull
-	@NumberFormat(style = Style.CURRENCY, pattern = "#,##0.00")
-	@Column(nullable = false, precision = 7, scale = 2) // Sem o DEFAULT 0.00
-	private BigDecimal salario;
+	@Size(max = 9)
+	@Column(nullable = false, unique = true)
+	private String matricula;
 
 
 	@NotNull
@@ -67,12 +74,21 @@ public class Funcionario extends AbstractEntity<Long> {
 		this.nome = nome;
 	}
 
-	public BigDecimal getSalario() {
-		return salario;
+//	public BigDecimal getSalario() {
+//		return salario;
+//	}
+//
+//	public void setSalario(BigDecimal salario) {
+//		this.salario = salario;
+//	}
+
+
+	public String getMatricula() {
+		return matricula;
 	}
 
-	public void setSalario(BigDecimal salario) {
-		this.salario = salario;
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
 	}
 
 	public LocalDate getDataEntrada() {
@@ -106,8 +122,12 @@ public class Funcionario extends AbstractEntity<Long> {
 	public void setCargo(Cargo cargo) {
 		this.cargo = cargo;
 	}
-	
-	
-	
-	
+
+//	public String getMatricula() {
+//		return matricula;
+//	}
+//
+//	public void setMatricula(String matricula) {
+//		this.matricula = matricula;
+//	}
 }
