@@ -40,3 +40,13 @@ x
 Hsrc/main/java/com/projetouposunipe/web/controller/UsuarioController.java,b\e\be5b784c4e58f88c408c8791c9f6e92327249f5a
 v
 Fsrc/main/java/com/projetouposunipe/web/controller/LoginController.java,e\9\e9288141cc08dbf0357aa364cc8410e5076a1f93
+‚
+Rsrc/main/java/com/projetouposunipe/infra/exceptions/ApplicationResourceAdvice.java,e\a\ea71c203f5218c6efa5754f12b3be4b22c6d2e27
+m
+=src/main/java/com/projetouposunipe/service/FeriasService.java,c\a\caada388c83ec383588cfc613a961aa0075149ef
+i
+9src/main/java/com/projetouposunipe/error/MyErrorView.java,1\3\13fca2b4531614a56cc4ceada6aadcb2244bf56a
+s
+Csrc/main/java/com/projetouposunipe/repository/FeriasRepository.java,7\7\77278e8467bae37ea55edaf66df4b50ecb8711f9
+w
+Gsrc/main/java/com/projetouposunipe/web/controller/FeriasController.java,f\9\f97edf539821cf49a682b636d0632efbdc40ddda

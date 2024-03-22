@@ -1,4 +1,4 @@
-//package com.mballem.curso.boot.error;
+//package com.projetouposunipe.error;
 //
 //import java.util.Map;
 //
