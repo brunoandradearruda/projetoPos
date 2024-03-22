@@ -75,3 +75,5 @@ Bsrc/main/java/com/mballem/curso/boot/dto/FuncionarioFeriasDTO.java,0\3\03aa968
 Nsrc/main/java/com/mballem/curso/boot/repository/HistoricoFeriasRepository.java,c\f\cf31dabcb937e8be13d43b38465a084552e501ff
 f
 6src/main/java/com/mballem/curso/boot/model/Ferias.java,8\4\84126fb30f455a87b068f5fc95d2480dcbe8bc15
+u
+Esrc/main/java/com/mballem/curso/boot/repository/FeriasRepository.java,e\b\ebb974f3407581526c7865ac721e2632b21bef7a

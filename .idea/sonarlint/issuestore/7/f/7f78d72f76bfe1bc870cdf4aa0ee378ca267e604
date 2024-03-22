@@ -1,7 +1,6 @@
 
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÜàÛ æ1J$544485f0-d013-40df-bb60-8c2b7ae64b66
-‡
-java:S1854"?Remove this useless assignment to local variable "funcionario".(óêó²ÿÿÿÿÿ8áàÛ æ1J$b2fde82a-283b-422d-b7e2-e2e7617632ff
-x
-java:S1481"0Remove this unused "funcionario" local variable.(óêó²ÿÿÿÿÿ8æàÛ æ1J$24625dd9-e9eb-40fe-be86-2109e764c617
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÏÂÒ¡æ1J$90d9c480-5326-439e-bfa9-15aa1f40e66b
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ĞÂÒ¡æ1J$7407ded5-ff47-40b6-ab2a-88a4fb2af71a
+ƒ	java:S125%"<This block of commented-out lines of code should be removed.(¸–’«şÿÿÿÿ8ÖÂÒ¡æ1J$8cd4ff83-177b-4993-8ce2-6c366b74e085
