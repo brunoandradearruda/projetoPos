@@ -7,7 +7,20 @@
 
 
 <section class="layout-content" layout:fragment="corpo">
-
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <i class="oi oi-caret-right"></i>
+                    <span>Registro de Férias</span>
+                </li>
+            </ul>
+            <a class="btn btn-primary btn-md" href="/ferias/listar" role="button">
+                <span class="oi oi-spreadsheet" title="Listar" aria-hidden="true"></span>
+                <span>Listar Funcionários em Férias</span>
+            </a>
+        </div>
+    </nav>
 
     <div class="container" id="cadastro">
         <form th:action="@{/ferias/registrar}" method="POST">
