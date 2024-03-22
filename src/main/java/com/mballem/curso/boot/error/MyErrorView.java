@@ -14,12 +14,12 @@ public class MyErrorView implements ErrorViewResolver{
 
 	@Override
 	public ModelAndView resolveErrorView(HttpServletRequest request, HttpStatus status, Map<String, Object> map) {
-		
+
 		//map.forEach((k, v)->System.out.println(k + ":" + v + "\n"));
 
 		ModelAndView model = new ModelAndView("error");
 		model.addObject("status", status.value());
-		
+
 		switch(status.value()) {
 		case 404:
 				model.addObject("error", "Página Não encontrada");
@@ -34,7 +34,7 @@ public class MyErrorView implements ErrorViewResolver{
 			model.addObject("message", map.get("message"));
 			break;
 		}
-		
+
 		return model;
 	}
 

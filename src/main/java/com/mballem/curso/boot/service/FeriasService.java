@@ -1,11 +1,11 @@
 package com.mballem.curso.boot.service;
-
 import com.mballem.curso.boot.domain.Funcionario;
 import com.mballem.curso.boot.model.Ferias;
 import com.mballem.curso.boot.repository.FeriasRepository;
 import com.mballem.curso.boot.repository.FuncionarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -19,42 +19,39 @@ public class FeriasService {
     @Autowired
     private FeriasRepository feriasRepository;
 
-    public Ferias calcularFerias(Long funcionarioId) {
-        Funcionario funcionario = funcionarioRepository.findById(funcionarioId)
-                .orElseThrow(() -> new IllegalArgumentException("Funcionário não encontrado."));
-
-        LocalDate inicioFerias = LocalDate.now();
-        LocalDate fimFerias = inicioFerias.plusDays(30);
-        int totalDias = 30;
-
-        Ferias ferias = new Ferias();
-        ferias.setInicioFerias(inicioFerias);
-        ferias.setFimFerias(fimFerias);
-        ferias.setTotalDias(totalDias);
-        ferias.setFuncionario(funcionario); // Vincula o funcionário às férias
-
-        // Opcional: salvar as férias no banco de dados aqui, se necessário
-        // feriasRepository.save(ferias);
-
-        return ferias;
+    @Transactional(readOnly = true)
+    public List<Ferias> buscarFeriasFuncionarioNoPeriodo(Long funcionarioId, LocalDate inicioPeriodo, LocalDate fimPeriodo) {
+        return feriasRepository.findByFuncionarioIdAndInicioFeriasBetween(funcionarioId, inicioPeriodo, fimPeriodo);
     }
 
-    public void registrarFerias(Long funcionarioId, LocalDate inicioFerias, int totalDias) {
-        Funcionario funcionario = funcionarioRepository.findById(funcionarioId)
-                .orElseThrow(() -> new IllegalArgumentException("Funcionário não encontrado."));
-        LocalDate fimFerias = inicioFerias.plusDays(totalDias);
+    @Transactional
+    public boolean registrarFerias(Long funcionarioId, LocalDate inicioFerias, int totalDias) throws IllegalArgumentException {
+        Funcionario funcionario = funcionarioRepository.findById(funcionarioId).orElseThrow(
+                () -> new IllegalArgumentException("Funcionário não encontrado.")
+        );
+
+        LocalDate umAnoAtras = inicioFerias.minusYears(1);
+        List<Ferias> feriasUltimos12Meses = buscarFeriasFuncionarioNoPeriodo(funcionarioId, umAnoAtras, inicioFerias);
+
+        int diasJaRegistrados = feriasUltimos12Meses.stream()
+                .mapToInt(Ferias::getTotalDias)
+                .sum();
+
+        if (diasJaRegistrados + totalDias > 30) {
+            throw new IllegalArgumentException("Não é possível registrar mais de 30 dias de férias em um período de 12 meses.");
+        }
 
         Ferias ferias = new Ferias();
         ferias.setInicioFerias(inicioFerias);
-        ferias.setFimFerias(fimFerias);
+        ferias.setFimFerias(inicioFerias.plusDays(totalDias - 1));
         ferias.setTotalDias(totalDias);
-        ferias.setFuncionario(funcionario); // Vincula o funcionário às férias
+        ferias.setFuncionario(funcionario);
+        feriasRepository.save(ferias);
 
-        feriasRepository.save(ferias); // Salva as férias no banco de dados
+        return true;
     }
 
     public List<Ferias> buscarTodos() {
         return feriasRepository.findAll();
     }
-
 }

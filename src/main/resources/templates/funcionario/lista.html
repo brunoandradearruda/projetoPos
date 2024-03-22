@@ -90,7 +90,7 @@
 	                    <tr>
 	                        <th>#</th>
 	                        <th>Nome</th>
-	                        <th>Salário</th>
+	                        <th>Matrícula</th>
 	                        <th>Departamento</th>
 	                        <th>Cargo</th>
 	                        <th>Endereço</th>
@@ -101,11 +101,11 @@
 	                    </thead>
 	                    <tbody>
 	                    <tr  th:each="f : ${funcionarios}">
-	                        <td  th:text="${f.id}">1</td>
-	                        <td  th:text="${f.nome}">Jorge da Silva</td>
-	                        <td  th:text="|R$ ${{f.salario}}|">R$ 3.500,99</td>
-	                        <td  th:text="${f.cargo.departamento.nome}">Recursos Humanos</td>
-	                        <td  th:text="${f.cargo.nome}">Auxiliar de RH</td>
+	                        <td  th:text="${f.id}"></td>
+	                        <td  th:text="${f.nome}"></td>
+							<td  th:text="${f.matricula}"></td>
+	                        <td  th:text="${f.cargo.departamento.nome}"></td>
+	                        <td  th:text="${f.cargo.nome}"></td>
 	                        <td>
 	                            <button type="button" class="btn btn-secondary btn-sm" data-container="body"
 	                                    data-toggle="popover" data-placement="top"

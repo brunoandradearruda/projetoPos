@@ -1,7 +1,5 @@
 
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8±Ãî¡æ1J$0e67064a-970b-49fb-9679-f055bd7926f3
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8’Ö£æ1J$cc2b0d0c-2843-4f01-88cf-c959d4c4d6bc
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8²Ãî¡æ1J$3959eff0-767f-4e63-956b-3f8a6f48b9b0
-™
-java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.PathVariable'.(¹ûñÅşÿÿÿÿ8£ü¡æ1J$330168f0-af09-4674-b160-e5a162e61143
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8’’Ö£æ1J$e9a256db-76d0-48a4-ac3c-aeba7ca01436
