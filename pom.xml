@@ -90,15 +90,6 @@
     		<version>1.14.15</version>
 		</dependency>
 		
-		<!-- MYSQL -->
-		
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-            <version>8.0.17</version> <!-- VERSÃO -->
-			<scope>runtime</scope>
-		</dependency>
-		
 		<!-- THYMELEAF -->
 		
 		<dependency>
