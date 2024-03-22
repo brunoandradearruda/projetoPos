@@ -1,9 +1,0 @@
-
-†
-java:S2184."CCast one of the operands of this subtraction operation to a "long".(Âò‹İ8ÖËû¢æ1J$b43c8dad-d1d0-4343-b905-c398bdc562f0
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8èËû¢æ1J$a63bdc97-51cb-4155-91b6-cfc48712027a
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8èËû¢æ1J$7c3c8ee2-c833-4a4c-b49c-cadc79f2c835
-˜
-java:S6809""UCall transactional methods via an injected dependency instead of directly via 'this'.(ÖŸ„Ü8óËû¢æ1J$fb55eeb9-6b0f-4f4b-bbd8-47fedbff8c34

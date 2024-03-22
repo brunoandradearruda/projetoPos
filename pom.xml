@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mballem.curso.boot</groupId>
-	<artifactId>demo-mvc-1</artifactId>
+	<artifactId>ProjetoPosUnipe</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo-mvc-1</name>
 	<description>Demo project for Spring Boot</description>
