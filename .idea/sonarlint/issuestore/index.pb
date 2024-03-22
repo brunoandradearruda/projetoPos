@@ -18,3 +18,9 @@ k
 HELP.md,1\a\1a273f73b7a477b0745593641bd708a6182c7ad5
 4
 mvnw,5\d\5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d
+d
+4src/main/java/com/projetouposunipe/dao/CargoDao.java,b\3\b3a19a55f0eb6aa68530b78563aff08ea481dd63
+h
+8src/main/java/com/projetouposunipe/dao/CargoDaoImpl.java,4\3\43307e173d48a905a9b6f0cf1157da51ed8e2b5f
+d
+4src/main/java/com/projetouposunipe/domain/Cargo.java,0\e\0ed125dc5d98cc05e537b8e0227a0603714918c7
