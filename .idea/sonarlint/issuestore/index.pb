@@ -24,3 +24,7 @@ h
 8src/main/java/com/projetouposunipe/dao/CargoDaoImpl.java,4\3\43307e173d48a905a9b6f0cf1157da51ed8e2b5f
 d
 4src/main/java/com/projetouposunipe/domain/Cargo.java,0\e\0ed125dc5d98cc05e537b8e0227a0603714918c7
+e
+5src/main/java/com/projetouposunipe/SwaggerConfig.java,b\f\bf035aa55e366b6660bcf351d9b62b6508095a37
+j
+:src/main/java/com/projetouposunipe/AuthApiApplication.java,4\d\4d9ff74725df07b4d289e79c40531d29c3216088
