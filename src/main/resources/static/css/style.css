@@ -73,7 +73,7 @@ body {
 
 .sidebar ul li a{
     display: block;
-    color:#1a1a1a;
+    color: #2b2b2b;
     padding: 10px 15px;
     white-space: nowrap;
 }
@@ -87,7 +87,7 @@ body {
  */
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
 	color: #fff;
-	background-color: #1e94d2;
+	background-color: #007bfe;
 }
 
 /*
@@ -97,6 +97,7 @@ body {
 .navbar-toggle {
     display: inline-block;
     margin-left: 10px;
+    font-size: larger;
 }
 
 /*
@@ -128,3 +129,18 @@ body {
     padding-top: 50px; /* Adiciona um espaçamento no topo */
 }
 
+/* Customizando a cor do navbar para vermelho */
+.navbar-color {
+    background-color: #db3545; /* Código hexadecimal para vermelho */
+    color: #db3545; /* Cor do texto em branco para contraste */
+}
+
+.navbar-letter-color {
+    background-color: #da3545; /* Código hexadecimal para vermelho */
+    color: #ffffff; /* Cor do texto em branco para contraste */
+}
+
+.btn-header {
+    background-color: #da3545; /* Código hexadecimal para vermelho */
+    color: #000000; /* Cor do texto em branco para contraste */
+}

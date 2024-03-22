@@ -28,3 +28,5 @@ e
 5src/main/java/com/projetouposunipe/SwaggerConfig.java,b\f\bf035aa55e366b6660bcf351d9b62b6508095a37
 j
 :src/main/java/com/projetouposunipe/AuthApiApplication.java,4\d\4d9ff74725df07b4d289e79c40531d29c3216088
+u
+Esrc/main/java/com/projetouposunipe/web/controller/HomeController.java,5\e\5ec034068ead1e44de59600fcfe75c236ad62825
