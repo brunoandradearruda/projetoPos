@@ -4,25 +4,22 @@
     <meta charset="UTF-8"/>
 </head>
 <body>
-
-
 <section class="layout-content" layout:fragment="corpo">
     <nav class="navbar navbar-expand-md bg-light">
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <i class="oi oi-caret-right"></i>
-                    <span>Registro de Férias</span>
-                </li>
-            </ul>
-            <a class="btn btn-primary btn-md" href="/ferias/listar" role="button">
-                <span class="oi oi-spreadsheet" title="Listar" aria-hidden="true"></span>
-                <span>Listar Funcionários em Férias</span>
-            </a>
-        </div>
+        <!-- Navbar content -->
     </nav>
 
     <div class="container" id="cadastro">
+        <!-- Mensagem de sucesso -->
+        <div th:if="${mensagemSucesso}" class="alert alert-success" role="alert">
+            <span th:text="${mensagemSucesso}"></span>
+        </div>
+
+        <!-- Mensagem de erro -->
+        <div th:if="${mensagemErro}" class="alert alert-danger" role="alert">
+            <span th:text="${mensagemErro}"></span>
+        </div>
+
         <form th:action="@{/ferias/registrar}" method="POST">
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -40,32 +37,6 @@
             <button type="submit" class="btn btn-primary btn-sm">Registrar Férias</button>
         </form>
     </div>
-
 </section>
-
-
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Conteúdo omitido para brevidade -->
-
-

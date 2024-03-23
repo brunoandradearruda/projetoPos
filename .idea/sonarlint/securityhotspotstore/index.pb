@@ -52,3 +52,7 @@ w
 Gsrc/main/java/com/projetouposunipe/web/controller/FeriasController.java,f\9\f97edf539821cf49a682b636d0632efbdc40ddda
 v
 Fsrc/main/java/com/projetouposunipe/validator/FuncionarioValidator.java,6\0\60f6b20e7cb6ca5061b42f3e3328e25b661d7d83
+w
+Gsrc/main/java/com/projetouposunipe/web/controller/ControllerAdvice.java,9\5\9594379b4199a9fea31616eaf388a48eabd2e925
+}
+Msrc/main/java/com/projetouposunipe/web/controller/GlobalExceptionHandler.java,5\5\55466419a5df7f2357d5507f586da242f91fab4a

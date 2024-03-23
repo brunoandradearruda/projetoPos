@@ -1,4 +1,6 @@
 
-7
-java:S1220""Move this file to a named package.8ÏäÄæ1
-]	java:S125"<This block of commented-out lines of code should be removed.(ü”’óûÿÿÿÿ8ÏäÄæ1
+
+java:S1192"HDefine a constant instead of duplicating this literal "message" 4 times.(æ÷åıÿÿÿÿ8‚–ŞÆæ1J$df109353-692a-46fc-84ce-37739d5e8c53
+
+java:S1192"FDefine a constant instead of duplicating this literal "error" 5 times.(Ü¼º†ıÿÿÿÿ8‚–ŞÆæ1J$5129ca96-9eec-47d2-9798-f8ef5f987638
+~	java:S125"<This block of commented-out lines of code should be removed.(œÒ•È8‘–ŞÆæ1J$dc121441-dffc-4b02-9a71-6aac346743b0

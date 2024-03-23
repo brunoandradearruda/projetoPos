@@ -1,5 +1,10 @@
 
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$2f36416c-9799-49f9-bd89-24ff40e117b8
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$76116a3e-1a8c-4bf3-b1d2-ed77b84d2e3b
+x
+java:S1192!"VDefine a constant instead of duplicating this literal "ferias/registroFerias" 3 times.(ªëÒõùÿÿÿÿ8š„£Çæ1
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ìšıÆæ1J$a5ebaf05-5ca5-4ab1-8c81-b2b02144732f
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8íšıÆæ1J$d0c5d608-3f45-40dd-a37e-886131e55a9e
+]	java:S1256"<This block of commented-out lines of code should be removed.(¹Í¨ªıÿÿÿÿ8®„£Çæ1
+x
+java:S1128"[Remove this unused import 'org.springframework.web.servlet.mvc.support.RedirectAttributes'.(ìçÚË8°„£Çæ1

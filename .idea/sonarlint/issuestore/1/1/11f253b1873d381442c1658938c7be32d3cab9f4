@@ -1,11 +1,11 @@
 
-k
-java:S11922"UDefine a constant instead of duplicating this literal "funcionario/cadastro" 4 times.(˜æ®È
-c
-java:S11927"MDefine a constant instead of duplicating this literal "funcionarios" 4 times.(Õî”À
-m
-java:S11928"RDefine a constant instead of duplicating this literal "funcionario/lista" 4 times.(êÌºøÿÿÿÿ
-X
-java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞ
-X
-java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞ
+‘
+java:S11922"UDefine a constant instead of duplicating this literal "funcionario/cadastro" 4 times.(˜æ®ÈJ$18bbae96-42a5-465b-b6f5-1fdd9b354641
+‰
+java:S11927"MDefine a constant instead of duplicating this literal "funcionarios" 4 times.(Õî”ÀJ$0fe28b7e-0bf4-4132-885f-3b6fa9d32b0e
+“
+java:S11928"RDefine a constant instead of duplicating this literal "funcionario/lista" 4 times.(êÌºøÿÿÿÿJ$2eaa1376-ca37-4a51-bbf4-d83fd59ab18d
+~
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞJ$777b13c5-718d-40a7-8a12-badb740fa54e
+~
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞJ$0a594f80-4a92-4237-8fc6-a3af4606fa83
