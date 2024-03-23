@@ -1,5 +1,4 @@
 package com.projetouposunipe.service;
-
 import com.projetouposunipe.domain.Funcionario;
 import com.projetouposunipe.model.Ferias;
 import com.projetouposunipe.repository.FeriasRepository;
@@ -71,8 +70,6 @@ public class FeriasService {
         try {
             funcionarioRepository.deleteById(funcionarioId);
         } catch (DataIntegrityViolationException e) {
-            // Assume que a exceção foi lançada devido à tentativa de excluir um funcionário que está de férias.
-            // Esse diagnóstico depende do mapeamento específico do banco de dados e da aplicação.
             throw new IllegalStateException("Não é possível excluir o funcionário, pois o mesmo encontra-se de férias.");
         }
     }

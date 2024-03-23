@@ -1,9 +1,9 @@
 
-^
-java:S11924"HDefine a constant instead of duplicating this literal "success" 3 times.(àÊ¢ß
-j
-java:S1192""ODefine a constant instead of duplicating this literal "cargo/cadastro" 3 times.(¡§½¯şÿÿÿÿ
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+„
+java:S11921"HDefine a constant instead of duplicating this literal "success" 3 times.(àÊ¢ßJ$406144d0-4bd5-416f-b244-f88c498a98db
+
+java:S1192"ODefine a constant instead of duplicating this literal "cargo/cadastro" 3 times.(¡§½¯şÿÿÿÿJ$04a40862-51c2-4118-8fbc-0f6160c36adf
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$c2d5a447-1da1-4d62-962c-8f2a4123555f
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$94eb6def-dffb-432a-be4e-154ede61ea24
